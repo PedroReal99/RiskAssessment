@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="requests" type="requestsType"/>
+	<!-- requestsType type -->
+	<xs:complexType name="requestsType">
+		<xs:sequence>
+			<xs:element name="request" type="requestType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- requestType type -->
+	<xs:complexType name="requestType">
+		<xs:sequence>
+			<xs:element name="parametersFromRequest" type="parametersFromRequestType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- parametersFromRequestType type -->
+	<xs:complexType name="parametersFromRequestType">
+		<xs:sequence>
+			<xs:element name="matrixVersion" type="xs:string"/>
+			<xs:element name="state" type="xs:string"/>
+			<xs:element name="initialDate" type="dataType"/>
+			<xs:element name="finalDate" type="dataType"/>
+			<xs:element name="cities" type="citiesType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- dataType type -->
+	<xs:simpleType name="dataType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- CitiesType type -->
+	<xs:complexType name="citiesType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="city" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

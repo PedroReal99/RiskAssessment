@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SE04" type="SE04Type"/>
+  
+  <!-- SE04 type -->
+  <xs:complexType name="SE04Type">
+    <xs:sequence>
+      <xs:element name="CaseCode" type="stringValida"/>
+      <xs:element name="Versions" type="VersionsType"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
+   <!-- contactoType type -->
+  <xs:complexType name="VersionsType">
+    <xs:sequence maxOccurs ="unbounded">
+      <xs:element name="Version" type="numeroNaoVazioType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- stringValida type -->
+  <xs:simpleType name="stringValida">
+    <xs:restriction base="xs:string">
+      <xs:pattern value = "[A-Za-z0-9 ]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- numeroNaoVazio type -->
+  <xs:simpleType name="numeroNaoVazioType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value= "0"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

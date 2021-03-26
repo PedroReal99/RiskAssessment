@@ -1,0 +1,11 @@
+<request>
+    <insuranceObject>
+        <location>Barcarola, Costa Cabral</location>
+        <coverage>Inundações</coverage>
+        <coverage>Tornados</coverage>
+    </insuranceObject>
+    <insuranceObject>
+        <location>Rua Tildevesa, 20, Porto</location>
+        <coverage>Tornados</coverage>
+    </insuranceObject>
+</request>

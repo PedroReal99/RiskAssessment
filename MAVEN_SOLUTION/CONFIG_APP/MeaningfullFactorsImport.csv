@@ -1,0 +1,5 @@
+;Bombeiros;;Floresta;Vias Acesso;
+;Peso;Distancia;Tempo;Area;Quantidade
+Tempestades;Sim;Sim;Sim;Nao
+Inundacoes;Nao;Sim;Nao;Sim
+Incendio;Sim;Sim;Sim;Nao

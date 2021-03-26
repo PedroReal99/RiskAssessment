@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="SE02" type="SE02Type"/>
+  
+	<xs:complexType name="SE02Type">
+		<xs:sequence>
+			<xs:element name="Result" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

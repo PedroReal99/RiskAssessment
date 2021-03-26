@@ -1,0 +1,70 @@
+{
+    "authenticationResultCode": "ValidCredentials",
+    "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+    "copyright": "Copyright © 2019 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+    "resourceSets": [
+        {
+            "estimatedTotal": 1,
+            "resources": [
+                {
+                    "__type": "Location:http://schemas.microsoft.com/search/local/ws/rest/v1",
+                    "bbox": [
+                        37.418299282429324,
+                        -122.0926827098349,
+                        37.426024717570677,
+                        -122.07971329016509
+                    ],
+                    "name": "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+                    "point": {
+                        "type": "Point",
+                        "coordinates": [
+                            37.422162,
+                            -122.086198
+                        ]
+                    },
+                    "address": {
+                        "addressLine": "1600 Amphitheatre Pkwy",
+                        "adminDistrict": "CA",
+                        "adminDistrict2": "Santa Clara County",
+                        "countryRegion": "United States",
+                        "formattedAddress": "1600 Amphitheatre Pkwy, Mountain View, CA 94043",
+                        "locality": "Mountain View",
+                        "postalCode": "94043"
+                    },
+                    "confidence": "High",
+                    "entityType": "Address",
+                    "geocodePoints": [
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                37.422162,
+                                -122.086198
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Display"
+                            ]
+                        },
+                        {
+                            "type": "Point",
+                            "coordinates": [
+                                37.4233025444043,
+                                -122.08587524574
+                            ],
+                            "calculationMethod": "Rooftop",
+                            "usageTypes": [
+                                "Route"
+                            ]
+                        }
+                    ],
+                    "matchCodes": [
+                        "Good"
+                    ]
+                }
+            ]
+        }
+    ],
+    "statusCode": 200,
+    "statusDescription": "OK",
+    "traceId": "599d174998d84a0fba7938d2ab81de53|DU00000B74|7.7.0.0|Ref A: AFB1E728622B4627B44F68817C91451B Ref B: DB3EDGE0820 Ref C: 2019-06-11T14:10:10Z"
+}

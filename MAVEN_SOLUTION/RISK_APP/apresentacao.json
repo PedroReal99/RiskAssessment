@@ -1,0 +1,26 @@
+{
+		"Codigo": "Code",
+    		"Tipo": "Aceite",
+    		"Estado": "Espera",
+    		"Objeto Seguro": [
+			{
+				"nome": "PC",
+				"localizacao": "20-50",
+				"detalhes": "",
+				"indice": "-1",
+				"tabela":[
+					{
+						"linha":[
+							{
+							"covertura": "Incêndios",
+							"factor risco": "Zona Urbana",
+							"metrica": "Densidade",
+							"classificacao": "HIGH"
+							}
+						]
+					}
+				]
+			}
+		]
+}
+

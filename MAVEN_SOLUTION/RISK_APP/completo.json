@@ -1,0 +1,24 @@
+{
+		"Codigo": "Code1",
+    		"Tipo": "Aceite",
+    		"Estado": "Finalizada",
+    		"Objeto Seguro": [
+			{
+				"nome": "PC",
+				"localizacao": "20-50",
+				"detalhes": "sem detalhes",
+				"indice": "2",
+				"tabela":[
+					{												"linha":[
+							{
+							"covertura": "incendio",
+							"factor risco": "floresta",
+							"metrica": "metrica",
+							"classificacao": "boa classificacao"
+							}
+						]
+					}
+				]
+			}
+		]
+}

@@ -1,0 +1,34 @@
+<requests>
+    <request>
+        <insuranceObject>
+            <location>Barcarola, Costa Cabral</location>
+            <coverage>Inundações</coverage>
+            <coverage>Tornados</coverage>
+        </insuranceObject>
+        <insuranceObject>
+            <location>Rua Tildevesa, 20, Porto</location>
+            <coverage>Tornados</coverage>
+    </request>
+    <request>
+        <insuranceObject>
+            <location>Porto, Maia</location>
+            <coverage>Incendios</coverage>
+            <coverage>Inundações</coverage>
+        </insuranceObject>
+        <insuranceObject>
+            <location>Rua Jose Gomes, 24, Porto</location>
+            <coverage>Tornados
+        </insuranceObject>
+    </request>
+    <request>
+        <insuranceObject>
+            <location>Lisboa, Chiado</location>
+            <coverage>Incendios</coverage>
+            <coverage>Tornados</coverage>
+        </insuranceObject>
+        <insuranceObject>
+            <location>Rua Antonio Oliveia, 130, Braga</location>
+            <coverage>Incendios</coverage>
+        </insuranceObject>
+    </request>
+</requests>

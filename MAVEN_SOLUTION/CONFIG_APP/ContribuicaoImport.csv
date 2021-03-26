@@ -1,0 +1,5 @@
+;Bombeiros;;Floresta;Vias Acesso;
+Contribuicao;Peso;Distancia;Tempo;Area;Quantidade
+Tempestades;Positivo;Positivo;Negativo;Negativo;Negativo
+Inundacoes;Negativo;Positivo;Negativo;Positivo;Positivo
+Incendio;Positivo;Negativo;Positivo;Negativo;Positivo

@@ -1,0 +1,37 @@
+<handlers>
+    <handler>
+        <method>GET</method>
+        <uri>/TEST</uri>
+        <className>webserver.http.requestHandler.TestRequestHandler</className>
+    </handler>
+    <handler>
+        <method>GET</method>
+        <uri>/riskAssessment/obtain</uri>
+        <className>webserver.http.requestHandler.GetRiskAssessmentResultRequestHandler</className>
+    </handler>
+    <handler>
+        <method>PUT</method>
+        <uri>/riskAssessment/cases/submit</uri>
+        <className>webserver.http.requestHandler.RASubmissionRequestHandler</className>
+    </handler>
+    <handler>
+        <method>PUT</method>
+        <uri>/riskAssessment/cases/submit/multiple</uri>
+        <className>webserver.http.requestHandler.MultipleRASubmissionRequestHandler</className>
+    </handler>
+    <handler>
+        <method>POST</method>
+        <uri>/riskAssessment/compare</uri>
+        <className>webserver.http.requestHandler.ComparisonRiskAssessmentRequestHandler</className>
+    </handler>
+    <handler>
+        <method>GET</method>
+        <uri>/riskAssessment/currentload</uri>
+        <className>webserver.http.requestHandler.ServerAvailabilityHandler</className>
+    </handler>
+     <handler>
+        <method>POST</method>
+        <uri>/riskAssessment/cases/obtain</uri>
+        <className>webserver.http.requestHandler.ConcludedCasesRequestHandler</className>
+    </handler>
+</handlers>

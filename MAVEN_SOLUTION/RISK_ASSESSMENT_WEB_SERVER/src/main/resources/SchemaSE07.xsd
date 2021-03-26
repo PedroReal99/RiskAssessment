@@ -1,0 +1,36 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="SE07" type="SE07Type"/>
+
+  
+  
+
+ 
+
+
+  <!-- SE07 type -->
+  <xs:complexType name="SE07Type">
+    <xs:sequence>
+      <xs:element name="Data" type="xs:date" maxOccurs="unbounded"/>
+      <xs:element name="Comando" type="comandoType" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+
+  <xs:complexType name="comandoType">
+    <xs:sequence>
+      <xs:element name="Metodo" type="stringValida"/>
+      <xs:element name="Uri" type="stringValida"/>
+	<xs:element name="File" type="stringValida"/>
+    </xs:sequence>
+</xs:complexType>
+
+
+
+  <!-- stringValida type -->
+  <xs:simpleType name="stringValida">
+    <xs:restriction base="xs:string">
+      <xs:pattern value = "[A-Za-z0-9 ]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
